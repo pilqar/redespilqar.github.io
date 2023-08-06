@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Curso de redes de computadoras</title>
+ <meta charset="UTF-8">
+ <link href="../estilos/style.css" rel="stylesheet" type="text/css"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Visita y consulta sobre nuestros cursos de redes">
+ <meta name="keywords" content="cisco, ccna, clases, cursos, online">
+</head>
+<body>
+ <nav>
+ <ul>
+ <li class="horizontal"><a href="./articulos">Art&iacute;culos</a></li>
+ <li class="horizontal"><a href="./examenes">Ex&aacute;menes</a></li>
+ <li class="horizontal"><a href="./profesor">Profesor Particular</a></li>
+ <li class="horizontal"><a href="./cursos">Cursos</a></li>
+ </ul>
+ </nav>
+
+ <header>
+ <section class="banner">Curso de redes de computadoras</section>
+  </header>
+ <main>
+ <aside class="left"> 
+ <ul>
+ <li class="lateral"><a href="https://www.calculator.net/ip-subnet-calculator.html">Calculadores de subredes</a></li>
+ <li class="lateral"><a href="https://ouilookup.com/">OUI Mac address</a></li>
+ <li class="lateral"><a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a></li>
+ <li class="lateral"><a href="https://www.virtualbox.org/wiki/Downloads">Descarga GNS3</a></li>
+ </ul>
+ </aside>
+ 
+ <article>
+ <h1>Curso de redes de computadoras</h1>
+ Pr&oacute;ximamente
+ </article>
+  </main>
+ <footer><div>aaaa</div></footer>
+</body>
+</html>
