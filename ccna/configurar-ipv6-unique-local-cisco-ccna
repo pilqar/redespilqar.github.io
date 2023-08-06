@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Configurar ipv6 unique local en router cisco</title>
+ <meta charset="UTF-8">
+ <link href="../../estilos/style.css" rel="stylesheet" type="text/css"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Como podemos configurar ip version 6 en un equipo router.">
+ <meta name="keywords" content="cisco, ccna, ipv6, unique local,red, laboratorio, interfaz, clases">
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+        "item": {
+                "@id": "https://redes.pilqar.com",
+                  "@type": "WebSite",
+                  "name": "Clases de redes de computadoras y CCNA",
+                  "url": "https://redes.pilqar.com",
+                  "description": "Redes de computadoras y CCNA"
+                }
+
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Configurar ipv6 unique local en router cisco",
+        "item": {
+                "@id": "https://redes.pilqar.com/redes/configurar-ipv6-unique-local-cisco-ccna",
+                  "@type": "WebSite",
+                  "name": "Configurar ipv6 unique local en router cisco",
+                  "url": "https://redes.pilqar.com/redes/configurar-ipv6-unique-local-cisco-ccna",
+                  "description": "Configurar ipv6 unique local en router cisco"
+                }
+
+  }]
+}
+</script>
+
+</head>
+<body>
+ <nav>
+ <ul>
+ <li class="horizontal"><a href="../articulos">Art&iacute;culos</a></li>
+ <li class="horizontal"><a href="../examenes">Ex&aacute;menes</a></li>
+ <li class="horizontal"><a href="../profesor">Profesor Particular</a></li>
+ <li class="horizontal"><a href="../cursos">Cursos</a></li>
+ </ul>
+ </nav>
+
+ <header>
+ <section class="banner">Configurar ipv6 unique local en router Cisco</section>
+  </header>
+ <main>
+ <aside class="left"> 
+ <ul>
+ <li class="lateral"><a href="https://www.calculator.net/ip-subnet-calculator.html">Calculadores de subredes</a></li>
+ <li class="lateral"><a href="https://ouilookup.com/">OUI Mac address</a></li>
+ <li class="lateral"><a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a></li>
+ <li class="lateral"><a href="https://gns3.com/software/download">Descarga GNS3</a></li>
+ </ul>
+ </aside>
+ 
+ <article>
+ <h1>Configurar ipv6 unique local en router cisco</h1>
+ Antes de iniciar la configuración de la ip versión 6 en una interfaz de red, debemos tener en cuenta que las direcciones 
+ <br>
+ Unique local pertenecen a la red  <strong>FC00::/7</strong>
+ <br><br>
+ <h2>Datos para el presente laboratorio</h2>
+ 
+ Red Unique local: <strong>FC00:0:10::0/64</strong><br>
+ Interfaz fa0/0 de router cisco <strong>FC00:0:10::1/126</strong><br>
+ Interfaz fa0 de PC <strong>FC00:0:10::2/126</strong>
+ <br>
+<img src="../imagenes/configuracionipv6uniquelocal.jpg"/>
+ <div class="codigo">
+   enable
+   <br>
+   configure terminal
+   <br>
+   interface fastethernet0/0 FC00:0:10::1/126
+   <br>
+   no shutdown
+   <br>
+   
+ </div>
+ <br>
+ Ver video
+<br>
+<a href="https://www.youtube.com/watch?v=MD6WBHpI9GA"><img src="../imagenes/configurar-ipv6-unique-local-packetracer.png" alt="video configuraci&oacute;n unique local cisco ccna"/></a>
+ <br>
+ <strong>Palabras clave:</strong> cisco, ccna, ipv6, unique local,red
+ 
+ 
+ </article>
+  </main>
+ <footer><div>aaaa</div></footer>
+</body>
+</html>
